@@ -9,6 +9,11 @@ import ca.uhn.fhir.model.api.annotation.ResourceDef;
 
 @ResourceDef(name = "Organization", profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization")
 public class USCoreOrganization extends Organization{
+
+	public USCoreOrganization(){
+		super();
+	}
+	
 	public USCoreOrganization(Identifier identifier, boolean active, String name) {
 		this.addIdentifier(identifier);
 		this.setActive(active);

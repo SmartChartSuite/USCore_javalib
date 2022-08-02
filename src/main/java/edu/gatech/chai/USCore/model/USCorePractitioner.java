@@ -9,6 +9,10 @@ import ca.uhn.fhir.model.api.annotation.ResourceDef;
 @ResourceDef(name = "Practitioner", profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner")
 public class USCorePractitioner extends Practitioner{
 	
+	public USCorePractitioner(){
+		super();
+	}
+	
 	public USCorePractitioner(Identifier identifier, HumanName name) {
 		super();
 		this.addIdentifier(identifier);

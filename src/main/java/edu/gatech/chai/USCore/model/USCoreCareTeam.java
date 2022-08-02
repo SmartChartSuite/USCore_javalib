@@ -20,6 +20,10 @@ public class USCoreCareTeam extends CareTeam{
 	 * 
 	 */
 	private static final long serialVersionUID = -5388914860244507422L;
+	
+	public USCoreCareTeam(){
+		super();
+	}
 
 	public USCoreCareTeam(CareTeamStatus status, Reference subject, CodeableConcept participantRole, Reference member) {
 		super();

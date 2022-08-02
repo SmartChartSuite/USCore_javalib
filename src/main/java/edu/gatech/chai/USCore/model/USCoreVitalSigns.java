@@ -18,6 +18,10 @@ public class USCoreVitalSigns extends Observation{
 	 */
 	private static final long serialVersionUID = -6051333994034814052L;
 
+	public USCoreVitalSigns(){
+		super();
+	}
+
 	public USCoreVitalSigns(ObservationStatus status, CodeableConcept code, Reference subject, DateTimeType effective) {
 		super();
 		this.setStatus(status);

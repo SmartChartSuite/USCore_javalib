@@ -25,6 +25,10 @@ public class USCoreDiagnosticReportNote extends DiagnosticReport{
 	 */
 	private static final long serialVersionUID = 1210607509426619954L;
 
+	public USCoreDiagnosticReportNote(){
+		super();
+	}
+	
 	public USCoreDiagnosticReportNote(DiagnosticReportStatus status, CodeableConcept category, CodeableConcept code, Reference subject, DateTimeType effective, Date issued) {
 		super();
 		this.setStatus(status);

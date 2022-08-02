@@ -24,6 +24,10 @@ public class USCoreDiagnosticReportLab extends DiagnosticReport{
 	 * 
 	 */
 	private static final long serialVersionUID = 1210607509426619954L;
+	
+	public USCoreDiagnosticReportLab(){
+		super();
+	}
 
 	public USCoreDiagnosticReportLab(DiagnosticReportStatus status, CodeableConcept code, Reference subject, DateTimeType effective, Date issued) {
 		super();

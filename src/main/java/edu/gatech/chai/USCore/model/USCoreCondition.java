@@ -23,6 +23,10 @@ public class USCoreCondition extends Condition{
 	 */
 	private static final long serialVersionUID = -2865546892014612401L;
 
+	public USCoreCondition(){
+		super();
+	}
+	
 	public USCoreCondition(CodeableConcept category, CodeableConcept code, Reference subject) {
 		super();
 		this.addCategory(category);

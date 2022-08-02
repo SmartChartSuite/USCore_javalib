@@ -13,6 +13,9 @@ public class USCoreAllergyIntolerance extends AllergyIntolerance{
 	 */
 	private static final long serialVersionUID = 2621850526089714812L;
 
+	public USCoreAllergyIntolerance() {
+		super();
+	}
 	public USCoreAllergyIntolerance(Reference patient) {
 		super();
 		this.setPatient(patient);

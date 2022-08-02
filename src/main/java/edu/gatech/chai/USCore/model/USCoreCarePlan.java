@@ -20,6 +20,10 @@ public class USCoreCarePlan extends CarePlan{
 	 */
 	private static final long serialVersionUID = -4047361557661129776L;
 
+	public USCoreCarePlan(){
+		super();
+	}
+	
 	public USCoreCarePlan(Narrative text, CarePlanStatus status, CarePlanIntent intent, Reference subject) {
 		super();
 		this.setText(text);
