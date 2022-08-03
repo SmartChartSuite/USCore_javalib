@@ -1,0 +1,14 @@
+edu\gatech\chai\USCore\context\USCoreContext.class
+edu\gatech\chai\USCore\model\USCoreOrganization.class
+edu\gatech\chai\USCore\model\util\USCoreDiagnosticReportLabUtil.class
+edu\gatech\chai\USCore\model\USCorePractitioner.class
+edu\gatech\chai\USCore\model\USCoreCarePlan.class
+edu\gatech\chai\USCore\model\USCoreDiagnosticReportLab.class
+edu\gatech\chai\USCore\model\USCoreCondition.class
+edu\gatech\chai\USCore\model\util\USCoreCarePlanUtil.class
+edu\gatech\chai\USCore\model\USCoreCareTeam.class
+edu\gatech\chai\USCore\model\USCoreDiagnosticReportNote.class
+edu\gatech\chai\USCore\model\USCoreAllergyIntolerance.class
+edu\gatech\chai\USCore\model\util\CommonUtil.class
+edu\gatech\chai\USCore\model\USCoreVitalSigns.class
+edu\gatech\chai\USCore\model\util\USCoreVitalSignsUtil.class
