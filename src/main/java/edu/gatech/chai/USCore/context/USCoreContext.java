@@ -14,7 +14,6 @@ import edu.gatech.chai.USCore.model.USCoreVitalSigns;
 public class USCoreContext extends FhirContext{
 	
 	public USCoreContext() {
-		this.getRestfulClientFactory();
 		this.setDefaultTypeForProfile("http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance", USCoreAllergyIntolerance.class);
 		this.setDefaultTypeForProfile("http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan", USCoreCarePlan.class);
 		this.setDefaultTypeForProfile("http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam", USCoreCareTeam.class);
