@@ -16,8 +16,8 @@ public class USCoreAllergyIntolerance extends AllergyIntolerance{
 	public USCoreAllergyIntolerance() {
 		super();
 	}
-	public USCoreAllergyIntolerance(Reference patient) {
+	public USCoreAllergyIntolerance(Reference patientReference) {
 		super();
-		this.setPatient(patient);
+		this.setPatient(patientReference);
 	}
 }
