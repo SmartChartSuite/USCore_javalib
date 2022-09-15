@@ -20,6 +20,11 @@ public class USCoreOrganization extends Organization{
 		this.setName(name);
 	}
 	
+	public USCoreOrganization(boolean active, String name) {
+		this.setActive(active);
+		this.setName(name);
+	}
+
 	public USCoreOrganization addAddress(Address address) {
 		checkAddress(address);
 		return this.addAddress(address);
