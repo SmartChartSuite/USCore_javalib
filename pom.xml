@@ -8,7 +8,10 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <fhir.version>5.7.0</fhir.version>
+    <java.version>17</java.version>
+    <maven.compiler.release>${java.version}</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <fhir.version>6.4.1</fhir.version>
   </properties>
 
   <distributionManagement> 
@@ -51,6 +54,13 @@
         <artifactId>hapi-fhir-validation-resources-r4</artifactId>
         <version>${fhir.version}</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api -->
+    <dependency>
+        <groupId>jakarta.validation</groupId>
+        <artifactId>jakarta.validation-api</artifactId>
+        <version>3.0.2</version>
+    </dependency>
+
   </dependencies>
 
   <build>
