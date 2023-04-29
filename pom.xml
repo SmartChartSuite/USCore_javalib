@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.gatech</groupId>
   <artifactId>USCore</artifactId>
-  <version>0.0.1-SNAPSHOT-STU5</version>
+  <version>0.1.1-SNAPSHOT-STU5</version>
   <name>USCore</name>
   <description>A Java Library Implementation of the HL7 FHIR USCore Implementation Guide</description>
   

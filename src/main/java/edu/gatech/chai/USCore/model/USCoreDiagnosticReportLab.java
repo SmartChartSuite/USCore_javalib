@@ -5,14 +5,10 @@ import java.util.Date;
 import org.hl7.fhir.r4.model.CodeableConcept;
 import org.hl7.fhir.r4.model.DateTimeType;
 import org.hl7.fhir.r4.model.DiagnosticReport;
-import org.hl7.fhir.r4.model.Narrative;
-import org.hl7.fhir.r4.model.Observation;
 import org.hl7.fhir.r4.model.Period;
 import org.hl7.fhir.r4.model.Reference;
-import org.hl7.fhir.r4.model.Type;
 
 import ca.uhn.fhir.model.api.annotation.ResourceDef;
-import edu.gatech.chai.USCore.model.util.USCoreCarePlanUtil;
 import edu.gatech.chai.USCore.model.util.USCoreDiagnosticReportLabUtil;
 
 @ResourceDef(name = "DiagnosticReport", profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab")
